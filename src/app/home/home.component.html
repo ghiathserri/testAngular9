@@ -1,0 +1,69 @@
+<!-- <p (click)="printInConsole()">Click me to print in console</p>
+
+	<p [class.show]="counter > 10" id="hidden">Counter value is bigger than 10</p>
+
+	<p [style.color]="counter > 10 ? 'gray' : 'red' ">Hello world!</p>
+
+	<p [ngStyle]="{
+	'color' : counter > 10 ? 'yellow' : 'pink',
+	'border' : counter > 10 ? '1px solid red' : '1px solid green'
+}">IT</p>
+
+<div *ngFor="let x of students">
+	<p>{{ x.name }}</p>
+	<p>{{ x.age }}</p>
+</div>
+
+
+<label>
+ Name :
+ <input type="text" [formControl]="name">
+</label>
+
+ -->
+<!-- <form [formGroup]="info" (ngSubmit)="onSubmit()">
+ 
+ <label>
+   First Name:
+   <input type="text" formControlName="firstName" pattern="[a-zA-Z ]*">
+   <div *ngIf="info.get('firstName').errors.required && submitted">
+    Name is required.
+  </div>
+  <div *ngIf="info.get('firstName').errors.minlength && submitted">
+    Name must be at least 4 characters long.
+  </div>
+  <div *ngIf="info.get('firstName').errors.pattern && submitted">
+    Name must be a string.
+  </div>
+ </label>
+<br>
+ <label>
+   Last Name:
+   <input type="text" formControlName="lastName">
+ </label>
+
+ <label>
+   Age:
+   <input type="text" formControlName="age">
+ </label>
+
+ <label>
+   Email:
+   <input type="text" formControlName="email">
+ </label>
+ 
+ <input type="submit" class="btn btn-primary" value="Submit">
+
+</form>
+ -->
+<!--  {{ name }}
+<p id="test" [title]="'Say hi' + name ">Hello world</p>
+<p id="test" title="Say hi {{ name }} ">Hello world</p>
+ -->
+<!-- 	<p [class.active]="counter > 10">Counter value is not bigger than 10 {{ test() }}</p>
+ -->
+<div #myTest>
+
+</div>
+
+<input type="text" #myInput>
